@@ -13,7 +13,6 @@ html{
 .card4 {
   @apply  
     overflow-auto 
-    h-full 
     items-center 
     justify-center 
     text-center 
