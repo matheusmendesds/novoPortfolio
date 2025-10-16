@@ -9,3 +9,20 @@
 html{
   background-color: #dbd08a;
 }
+
+.card4 {
+  @apply  
+    overflow-auto 
+    h-full 
+    items-center 
+    justify-center 
+    text-center 
+    text-[#eee] 
+    rounded-[14px] 
+    border-[4px] 
+    border-[#F1EAEA] 
+    shadow-[5px_6px_0px_rgba(0,0,0,0.3)] 
+    bg-[linear-gradient(45deg,_#8D5674_30%,_#765698_90%)] 
+    brightness-[1.1] 
+    contrast-[1.1];
+}
