@@ -2,8 +2,12 @@ import Menu from "@/components/menu";
 export default function Home() {
   return (
     <div>
-      <Menu/>
-      
+     
+      <section>
+        <div className="card">
+
+        </div>
+      </section>
 
     </div>
   );

@@ -2,12 +2,15 @@
 @plugin "daisyui";
 
 :root {
-  --background: #fdffa4;
+  --background: #273329;
   --foreground: #171717;
+  --cardBg: #40CB55;
+
 }
 
-html{
-  background-color: #dbd08a;
+html {
+  /* background-color: #dbd08a; */
+  background-color: var(--background);
 }
 
 .card4 {
@@ -21,7 +24,11 @@ html{
     border-[4px] 
     border-[#F1EAEA] 
     shadow-[5px_6px_0px_rgba(0,0,0,0.3)] 
-    bg-[linear-gradient(45deg,_#8D5674_30%,_#765698_90%)] 
+    bg-[linear-gradient(45deg,_#4E8256_30%,_#4CA75A_90%)] 
     brightness-[1.1] 
     contrast-[1.1];
+}
+.card {
+  height: 25vh;
+  background-color: var(--cardBg);
 }
