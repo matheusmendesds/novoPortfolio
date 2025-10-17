@@ -1,3 +1,4 @@
+import { Ellipsis } from "lucide-react"
 export default function Carousel(){
     return(
         <div class="carousel carousel-center bg-neutral rounded-box max-w-screen space-x-4 p-4">
@@ -36,6 +37,8 @@ export default function Carousel(){
             src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
             class="rounded-box" />
         </div>
+       
 </div>
+
     )
 }

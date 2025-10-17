@@ -1,5 +1,7 @@
 import Carousel from "@/components/carousel";
 import Menu from "@/components/menu";
+import Stack from "@/components/stack";
+import { Ellipsis } from "lucide-react";
 export default function Home() {
   return (
     <div>
@@ -7,6 +9,7 @@ export default function Home() {
       <section>
         <div >
           <Carousel/>
+          <Stack/>
         </div>
       </section>
 
