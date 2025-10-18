@@ -8,7 +8,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
 
 
-export default function Stack(Imagem) {
+export default function Stack() {
     return (
         <>
             
@@ -19,7 +19,6 @@ export default function Stack(Imagem) {
                     <div className="img"><FaJs size={60}/></div>
                     <div className="img"><FaPython size={60}/></div>
                 </div>
-                
             </div>
             
         </>
