@@ -40,8 +40,8 @@ html {
   margin: 2px;
   height: 12vh;
   width: 11vw;
-  display: flex;              /* ADICIONE ISSO */
-  justify-content: center;    /* Centraliza horizontalmente */
+  display: flex;             
+  justify-content: center;    
   align-items: center
 }
 
