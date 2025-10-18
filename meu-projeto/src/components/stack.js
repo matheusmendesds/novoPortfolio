@@ -8,9 +8,9 @@ export default function Stack() {
     return (
         <>
             
-            <div className="bg-white m-4 border-2 border-black w-3/6 center">
+            <div className="bg-white m-auto border-2 border-black w-3/6">
                 <h1 className="text-center">Habilidades</h1>
-                <div className="grid grid-cols-3 gap-1 justify--center">
+                <div className="grid grid-cols-3 gap-1 justify-center m-auto">
                     <div className="img"><FaHtml5 size={60}/></div>
                     <div className="img"><FaCss3Alt size={60}/></div>
                     <div className="img"><RiTailwindCssFill size={60}/> </div>
