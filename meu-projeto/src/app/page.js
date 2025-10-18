@@ -8,7 +8,6 @@ export default function Home() {
      
       <section>
         <div >
-          <Carousel/>
           <Stack/>
         </div>
       </section>

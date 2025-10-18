@@ -10,7 +10,8 @@
 
 html {
   /* background-color: #dbd08a; */
-  background-color: var(--background);
+  background-color: #bbb54ad7;
+  color: black;
 }
 
 .card4 {
@@ -31,4 +32,13 @@ html {
 .card {
   height: 25vh;
   background-color: var(--cardBg);
+}
+
+.img {
+  background-color: #bbb54ad7;
+  border: 4px solid #E6DE35;
+  margin: 2px;
+  height: 10vh;
+  width: 10vw;
+  justify-content: center;
 }
