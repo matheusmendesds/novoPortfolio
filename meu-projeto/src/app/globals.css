@@ -4,13 +4,13 @@
 :root {
   --background: #273329;
   --foreground: #171717;
-  --cardBg: #40CB55;
-
+  --cardBg: #3751A5;
+  --stackBg: #353B50;
 }
 
 html {
   /* background-color: #dbd08a; */
-  background-color: #bbb54ad7;
+  background-color: #3751A5;
   color: black;
 }
 
@@ -25,7 +25,7 @@ html {
     border-[4px] 
     border-[#F1EAEA] 
     shadow-[5px_6px_0px_rgba(0,0,0,0.3)] 
-    bg-[linear-gradient(45deg,_#4E8256_30%,_#4CA75A_90%)] 
+    bg-[linear-gradient(45deg,_#3D4B7A_30%,_#3751A5_90%)] 
     brightness-[1.1] 
     contrast-[1.1];
 }
@@ -34,9 +34,13 @@ html {
   background-color: var(--cardBg);
 }
 
+.stackBg {
+  background-color: var(--stackBg);
+}
+
 .img {
-  background-color: #bbb54ad7;
-  border: 4px solid #E6DE35;
+  background-color: #003AFA;
+  border: 4px solid #234BCF;
   margin: 2px;
   height: 12vh;
   width: 11vw;

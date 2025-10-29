@@ -14,6 +14,9 @@ export default function Home() {
           <Stack/>
         </div>
       </section>
+      <section>
+        <p>Contato</p>
+      </section>
 
     </div>
   );

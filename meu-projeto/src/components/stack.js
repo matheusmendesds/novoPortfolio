@@ -8,7 +8,7 @@ export default function Stack() {
     return (
         <>
             
-            <div className="bg-white m-auto border-2 border-black w-3/6">
+            <div className=" m-auto border-2 border-black w-3/6 stackBg">
                 <h1 className="text-center">Habilidades</h1>
                 <div className="grid grid-cols-3 gap-1 ml-11">
                     <div className="img"><FaHtml5 size={60}/></div>
