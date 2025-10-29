@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <section>
-        <Teste/>
+      
       </section>
       <section>
         <div>
