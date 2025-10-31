@@ -8,7 +8,7 @@ export default function Stack() {
     return (
         <>
             
-            <div className="bg-indigo-400 m-auto w-3/6">
+            <div className="bg-[#000319] m-auto w-3/6">
                 <h1 className="text-center text-white">Habilidades</h1>
                 <div className="grid grid-cols-3 gap-1 ml-11 ">
                     <div className="img"><FaHtml5 size={60}/><p>Html</p></div>

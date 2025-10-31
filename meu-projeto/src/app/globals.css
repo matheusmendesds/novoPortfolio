@@ -50,3 +50,35 @@ p{
   color: white;
 }
 
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid #00ffff; /* cursor */
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  animation: typing 3s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+/* digitação */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* cursor piscando */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00ffff;
+  }
+}
+
+
+
