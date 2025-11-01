@@ -1,17 +1,26 @@
-export default function Descricao(){
-    return (
-       <div className=" mx-auto p-6 bg-[#252D6F] text-white rounded-2xl shadow-lg text-center space-y-4">
-  <h2 className="typewriter text-2xl font-semibold">
-    Oi, eu sou o <span className="text-blue-400">Matheus</span> 👋
-  </h2>
+'use client'
+import { useState , useEffect} from "react";
 
-  <p className="text-base typewriter leading-relaxed">
-    Sou formado em <span className="font-medium">Análise e Desenvolvimento de Sistemas</span>, 
-    desenvolvedor <span className="font-medium">Front-end</span> e atualmente estou estudando 
-    <span className="text-yellow-300"> Java</span> e 
-    <span className="text-green-400"> Análise de Dados com Python</span>.
-  </p>
-</div>
+export default function Descricao() {
+     const fullText = `Oi, eu sou o Matheus 👋
+Sou desenvolvedor front-end e estudo Java e Análise de Dados com Python.`;
+
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < fullText.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText((prev) => prev + fullText[index]);
+        setIndex(index + 1);
+      }, 50); // velocidade (ms por letra)
+      return () => clearTimeout(timeout);
+    }
+  }, [index, fullText]);
+    return (
+       <div className="w-6/12 mx-auto p-6 bg-[#252D6F] text-white rounded-2xl shadow-lg text-center space-y-4">
+            {displayedText}
+       </div>
 
     )
 }
